@@ -1,0 +1,59 @@
+body {
+    direction: rtl;
+}
+
+#wrapper {
+    width: 960px;
+    height: 960px;
+    background-color: lightgray;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#header {
+    margin: 5px;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+#navbar {
+    height: 40px;
+    background-color: blue;
+    margin: 5px;
+}
+
+#sidebar {
+    width: 220px;
+    height: 600px;
+    background-color: maroon;
+    float: right;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+#content {
+    width: 725px;
+    height: 600px;
+    background-color: orange;
+    float: right;
+    margin: 5px;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#footer {
+    height: 100px;
+    background-color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+#logo {
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    background-color: gray;
+    float: left;
+}
